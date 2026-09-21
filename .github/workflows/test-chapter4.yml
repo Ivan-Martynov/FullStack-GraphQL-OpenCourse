@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: tests-chapter4
+        working-directory: library-backend
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
